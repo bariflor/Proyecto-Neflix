@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+  outline: 1px solid red;
+}
+html body{
+	font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+  	color: white;
+  	background-color: black;
+  	font-size: 16px;
+	margin: 0;
+}
+header{
+	background: linear-gradient(to right, rgba(0,0,0,0.9), rgba(0,0,0,0.05)), url("../img/portada-2.jpg" );
+	height: 100vh;
+}
+ nav img {
+ 	width: 167px;
+ 	height: 45px;
+ }
+
+ nav a.logo {
+ 	display: inline-block;
+ 	line-height: 90px;
+ 	margin-left: 3%;
+ }
+ header nav {
+ 	height: 90px;
+ }
+ nav .signin{
+ 	color: #fff;
+ 	float: right;
+ 	background-color: #e50914;
+ 	line-height: normal;
+ 	margin-top: 18px;
+ 	margin-right: 3%;
+ 	padding: 7px 17px;
+ 	font-weight: 400;
+ 	border-radius: 3px;
+ 	font-size: 16px;
+ 	text-decoration: none;
+
+ 	line-height: normal; 
+ }
